@@ -1,0 +1,13 @@
+データの説明
+生成AIを用いた仮想データ
+Scikit-survivalは説明変数と目的変数 (eventとtime)を分けて入れる必要がある
+分ける前のデータはalldataフォルダ内
+
+trainx: トレーニング用の説明変数
+trainy: トレーニング用の目的変数 
+testx: トレーニング用の説明変数
+testy: トレーニング用の目的変数 
+
+Random survival forestを用いて機械学習モデルを構築し、
+Casesの5人のtimeとeventの有無 (有=1、無=0)を説明変数 (x)から予測します
+
